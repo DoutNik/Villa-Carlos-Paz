@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="accommodation.html">Accommodation</a></li>
+        <li><a href="entertainment.html">Entertainment</a></li>
+        <li><a href="form.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Formulario de Contacto</h1>
+    <form method="POST" action="mailto:tucorreoelectronico@correo.com">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" cols="33" required></textarea>
+      </div>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </main>
+</body>
+</html>
